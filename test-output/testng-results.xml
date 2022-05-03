@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[login method is executing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-02T16:32:12Z" name="Suite" finished-at="2022-05-02T16:33:31Z" duration-ms="78847">
+    <groups>
+    </groups>
+    <test started-at="2022-05-02T16:32:12Z" name="Test" finished-at="2022-05-02T16:33:31Z" duration-ms="78847">
+      <class name="test.ActitimeLoginLogout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.ActitimeLoginLogout@82ea68c]" started-at="2022-05-02T16:32:12Z" name="setup" finished-at="2022-05-02T16:33:09Z" duration-ms="56764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:test.ActitimeLoginLogout@82ea68c]" started-at="2022-05-02T16:33:09Z" name="logintoapp" finished-at="2022-05-02T16:33:22Z" duration-ms="13610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method signature="login()[pri:0, instance:test.ActitimeLoginLogout@82ea68c]" started-at="2022-05-02T16:33:22Z" name="login" finished-at="2022-05-02T16:33:22Z" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login method is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:test.ActitimeLoginLogout@82ea68c]" started-at="2022-05-02T16:33:22Z" name="logoutfromapp" finished-at="2022-05-02T16:33:30Z" duration-ms="8081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.ActitimeLoginLogout@82ea68c]" started-at="2022-05-02T16:33:30Z" name="teardown" finished-at="2022-05-02T16:33:31Z" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.ActitimeLoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
